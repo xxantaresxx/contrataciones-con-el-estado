@@ -1,0 +1,32 @@
+# Backend
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart>=0.0.5
+pydantic>=2.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+langchain>=0.0.300
+sentence-transformers>=2.2.0
+tiktoken>=0.5.0
+
+# Vector Store (usando una alternativa más simple a FAISS)
+scikit-learn>=1.0.0
+numpy>=1.20.0
+scipy>=1.8.0
+
+# OpenAI API
+openai>=0.27.0  # Asegúrate de usar la versión más reciente
+
+# Testing
+pytest>=7.0.0
+httpx>=0.24.0
+
+# Utils
+python-dotenv>=0.20.0
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# Para manejo de texto y procesamiento
+nltk>=3.8.0
+spacy>=3.0.0 
